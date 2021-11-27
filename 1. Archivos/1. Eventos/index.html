@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eventos - Parte 1</title>
+  </head>
+
+  <body>
+    <!-- Hay 2 tipos de EVENTOS: Eventos de "browser" y eventos de "DOM". -->
+    <!-- https://www.w3schools.com/js/js_events.asp -->
+
+    <h1>Vamos a hablar de eventos</h1>
+
+    <!-- Apretando "hora" lo que hago es llenar el "innerHTML" del div que está vacío. Entonces el "click" se hace en un elemento, pero la función afecta a otro, ergo, tenemos que capturar los dos en el JS. -->
+
+    <button id="hora1" onclick="hora1()">¿Qué hora es?</button>
+    <div id="horario1"></div>
+
+    <button id="hora2" onclick="hora2()">¿Qué fecha es?</button>
+    <div id="horario2"></div>
+
+    <br />
+    <br />
+
+    <div id="over" onmouseover="over()" onmouseout="chau()">
+      No pases por arriba mío.
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

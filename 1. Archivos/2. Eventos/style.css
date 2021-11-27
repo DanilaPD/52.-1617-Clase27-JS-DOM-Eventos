@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: darksalmon;
+    padding: 20px;
+}
+
+nav span:hover {
+    padding: 20px 0;
+    cursor: pointer;
+    font-weight: 800;
+    background-color: rgb(197, 116, 89);
+}
+
+ul {
+    position: absolute;
+    background-color: darksalmon;
+    display: block;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+.hide {
+    display: none;
+}
